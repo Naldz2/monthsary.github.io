@@ -1,0 +1,191 @@
+<html>
+    <head>
+    <title>Olas Tranquilas Beach Resort Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width =device-width, initial-scale =1">
+        <link href="https://fonts.googleapis.com/css?family=kaushan+Script|Poppins&display=swap" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h3>Sagutin mo or Babagsak ka sa Midterm</h3>
+    <form id="quizForm" action="next_page.html" method="post">
+        <ol>
+            <li>
+                <label>LAST MO NA TOH TIGNAN SCROLL KA MUNA THEN BALIK KA NALANG PAG TAPOS KANA MAG BASA..:)</label>
+            <li>
+                <label>Question 1: Mahal moko?</label><br>
+                <input type="radio" name="question1" value="A">A. OO!<br>
+                <input type="radio" name="question1" value="B">B. OO(IKAW BOSS KO)<br>
+            </li>
+            <li>
+                <label>Question 2: saan tayo nag kakilala?</label><br>
+                <input type="radio" name="question2" value="A">A. ML<br>
+                <input type="radio" name="question2" value="B">B. Panaginip<br>
+            </li>
+            <li>
+                <label>Question 3: Ako lng habang buhay?</label><br>
+                <input type="radio" name="question3" value="A">A. OPO WALANG IWANAN<br>
+                <input type="radio" name="question3" value="B">B. YES BOSS<br>
+            </li>
+            <li>
+                <label>Question 4: Papakasal tayo ahh!?</label><br>
+                <input type="radio" name="question4" value="A">A. opo<br>
+                <input type="radio" name="question4" value="B">B. yes daddy<br>
+            </li>
+            <li>
+                <label>Question 5: mommy?</label><br>
+                <input type="radio" name="question5" value="A">A. yes daddy<br>
+                <input type="radio" name="question5" value="B">B. yes sugar daddy<br>
+            </li>
+            <!-- Add more questions following the same format -->
+        </ol>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById("quizForm").onsubmit = function() {
+            // Check if all questions are answered
+            var questions = document.querySelectorAll('input[type="radio"]:checked').length;
+            if (questions < 5) {
+                alert("Please answer all questions before submitting.");
+                return false;
+            }
+        };
+    </script>
+            <div class="banner-btn">
+        </div>
+    </div>
+</section>
+    
+ <div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#banner">Question</a></li>
+            <li><a href="#feature">Message</a></li>
+            <li><a href="#service">Gif</a></li>
+        </ul>
+</nav>
+</div>   
+    <div id="menuBtn">
+        <img src="images/menu.png" id="menu">
+</div>
+        
+<!--Features-->
+
+<section id="feature">  
+ <div class="tittle-text"> 
+<p>message</p>
+    <h1>basahin mo mabuti</h1>
+</div>  
+<div class="feature-box">
+    <div class="features">
+        <h1></h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-HEART"></i>
+            </div>
+            <div class="feature-text">
+                <p>Hi Mahal pasensya na if ever na akala mo nakalimutan ko monthsary natin gusto ko lang sabihin na kahit nag aaway tayo mahal na mahal parin kita, wag mo sana ako kalimutan at pag palit ahhh sasama kita sa hukay hahahaha....</p>
+            </div>
+        </div>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-HEART"></i>
+            </div>
+            <div class="feature-text">
+                <p>happy happy monthsary mahal ko mag iingat ka palagi bubu kapa naman, lagi mo tatandaan lagi ako nandito para awayin ka i love you..</p>
+            </div>
+        </div>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-HEART"></i>
+            </div>
+            <div class="feature-text">
+                <p>With each passing day, my love for you grows stronger. You have filled my life with warmth and happiness, and I am endlessly thankful for your presence. Your kindness, your smile, and your unwavering support mean the world to me.</p>
+            </div>
+        </div>
+    </div>
+    <div class="features-img">
+        <img src="https://i.pinimg.com/originals/0a/a7/61/0aa761cabb5f4c3c28cf9e6da0c5ed01.gif" alt="Heart Icon">
+    </div>
+</div>
+     
+</section>        
+        
+<!--Service  -->      
+    
+ <section id="service">
+        <div class="tittle-text"> 
+        <p>Gif</p>
+        <h1>MWUAH MWUAH MOMMY</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+             <img src="https://i.pinimg.com/originals/bd/95/5e/bd955eb23520e2a3d6626b1b31a41bc0.gif" alt="Heart Icon">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                <h3>I</h3>
+                    <hr>
+                    <p>I ALWAYS HERE JUST THINK ABOUT ME AND TEXT ME IF YOU'RE NOT OK, I PROMISE TO TRY MY BEST TO MAKE YOU SMILE.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                 <img src="https://i.pinimg.com/originals/9e/37/3c/9e373c1c67756078a63ed1e1463969b3.gif" alt="Heart Icon">
+                <div class="overlay"></div><div class="service-desc">
+                <h3>LOVE</h3>
+                    <hr>
+                    <p>LOVING YOU IS THE BIGGEST MISSION I EVER HAD, A MISSION THAT I TREASURE THE MOST I WILL PROTECT YOU AS ALWAYS.</p>
+                </div>
+            </div>
+            <div class="single-service">
+               <img src="https://i.pinimg.com/originals/d7/35/9d/d7359d48aff8f20d000a8d962eb6c8e6.gif" alt="Heart Icon">            <div class="overlay"></div><div class="service-desc">
+                <h3>YOU</h3>
+                    <hr>
+                    <p>YOU ARE THE REASON WHY I KEEP WALKING IN THIS PATH, YOU ARE THE REASON WHY I WANT TO LIVE, YOU ARE THE REASON WHY I FEEL TO BE LOVED AGAIN.</p>
+                </div>
+            </div>
+            <div class="single-service">
+               <img src="https://i.pinimg.com/originals/bb/4b/14/bb4b14415f5c2074f850b407dffad712.gif" alt="Heart Icon">             <div class="overlay"></div><div class="service-desc">
+                <h3>SO MUCH</h3>
+                    <hr>
+                    <p>SO MUCH AGRUEMENT BUT I WILL NOT LET ANYONE TO HAVE YOU BECAUSE YOU DESERVE ME AND ONLY ME AND I DESERVE YOU AND ONLY YOU,HINDI ITO AI BAKA MA MEKUS MEKUS KITA DYAN.</p>
+                </div>
+            </div>
+        </div>
+     
+ </section> 
+        
+         
+    <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "images/close.png";
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "images/menu.png";
+
+        }
+    }
+    
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    
+    </script>         
+        
+</body>
+</html>
